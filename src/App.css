@@ -1,3 +1,5 @@
+@import '~antd/dist/antd.css';
+
 .App {
   text-align: center;
 }
@@ -35,4 +37,22 @@
   to {
     transform: rotate(360deg);
   }
+}
+.site-card-wrapper {
+  background: white;
+  padding: 30px;
+}
+.ant-card-head{
+  background-color: white;
+  text-align: left;
+  font-size: 18px;
+}
+.ant-card-body{
+  background-color: white;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+}
+.ant-tag {
+  margin-bottom: 8px;
 }
