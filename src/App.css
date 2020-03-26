@@ -56,3 +56,22 @@
 .ant-tag {
   margin-bottom: 8px;
 }
+.minus{
+  background-color: lawngreen;
+  border-radius: 10px;
+  border: 1px dotted;
+}
+.plus{
+  background-color: lightcoral;
+  border-radius: 10px;
+  border: 1px dotted;
+}
+.input{
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 50px;
+  border: 1px dotted;
+  border-radius: 10px;
+}
+

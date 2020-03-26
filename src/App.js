@@ -26,7 +26,23 @@ const cardData = [
   }
 ]
 class App extends React.Component{
+  state = {
+    order: 4
+  }
 
+  handlePlus = () => {
+    this.setState({
+      order: this.state.order + 1
+    })
+  }
+  
+  handleMinus= () => {
+    if (this.state.order > 0){
+      this.setState({
+        order: this.state.order - 1
+      }) 
+    }
+  }
   render(){
     return(
       <Layout className="layout">
@@ -56,6 +72,16 @@ class App extends React.Component{
                                <Timeline.Item>{data.education[0]}</Timeline.Item>
                                <Timeline.Item>{data.education[1]}</Timeline.Item> 
                             </Timeline>
+                          </Card>
+                          <Card><Tag color="#1eb2a6">Give Your Score To Him/Her !</Tag>
+                          <br />
+                          Berikan nilai dari 1-10
+                          <div className="counter">
+                              <button className="minus" onClick={this.handleMinus}>-</button>
+                              <input className="input" type="text" value={this.state.order}/>
+                              <button className="plus" onClick={this.handlePlus}>+</button><br />
+                              <p>Your score : {this.state.order}</p>
+                          </div>
                           </Card>
                         </Card>
                       </Col>    
