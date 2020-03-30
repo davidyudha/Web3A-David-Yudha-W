@@ -19,7 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy" : "web3ap -d build"
+    "deploy" : "12.16.1"
   },
   "eslintConfig": {
     "extends": "react-app"
