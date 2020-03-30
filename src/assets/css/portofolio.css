@@ -1,8 +1,9 @@
 .header {
-    background: #a6b1e1;
+    background: #2d3c8d;
     text-align: center;
     padding: 9px;
     box-sizing: border-box;
+    color: white;
 }
 
 .logo {
@@ -43,11 +44,13 @@
 
 .card {
     border: 1px solid rgba(0, 0, 0, 0.23);
-    padding: 10px;
+    padding: 16px;
     width: 320px;
     border-radius: 4px;
     justify-content: center;
     box-shadow: -2px 7px 30px -1px rgba(0,0,0,0.31);
+    margin-left: 16px;
+    margin-right: 16px;
 }
 .card img {
     width: 100%;
@@ -103,12 +106,12 @@
     font-family:'Helvetica Neue', sans-serif;
 }
 
-.product-title {
-    color: rgb(32, 32, 32);
+.product-name {
     margin-top: 10px;
     font-size: 18px;
-    font-weight: 500;
-    font-family: 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    font-weight: 200;
+    font-family: sans-serif;
 
 }
 .img-thumb-prod img {
@@ -122,8 +125,10 @@
 }
 .troley-cart{
     margin-top: 16px;
+    margin-left: 16px;
     font-size: 18px;
     font-weight: bold;
     font-family: 'Helvetica Neue', sans-serif;
     color: lightseagreen;
+
 }

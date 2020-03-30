@@ -6,7 +6,7 @@ import ButtonHome from '../common/component/button/button-home';
 
 class PortofolioComponent extends Component{
     state ={
-        order: 4
+        order: 1
     }
 
     handlePlus = () => {
@@ -39,7 +39,7 @@ class PortofolioComponent extends Component{
                     <p className="product-price">Rp. 15.000</p>
                     <div className="counter">
                         <button className="minus" onClick={this.handleMinus}>-</button>
-                        <input type="text" style={{textAlign:"center"}} value={this.state.order}/>
+                        <input className="input" type="text" value={this.state.order}/>
                         <button className="plus" onClick={this.handlePlus}>+</button>
                     </div>
                 </div>
