@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8d00d06ef8b8d3757f17416b98878482",
+    "revision": "c66a36624d73a5ee6f3978086c2f902d",
     "url": "/Web3A-David-Yudha-W/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Web3A-David-Yudha-W/static/css/2.1bd2ab2f.chunk.css"
   },
   {
-    "revision": "23fb19e9a6e6edaa74e7",
-    "url": "/Web3A-David-Yudha-W/static/css/main.837ec493.chunk.css"
+    "revision": "eb07144f20537604b794",
+    "url": "/Web3A-David-Yudha-W/static/css/main.bb935072.chunk.css"
   },
   {
     "revision": "54097db5e5b2370296f2",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Web3A-David-Yudha-W/static/js/2.9b15737b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "23fb19e9a6e6edaa74e7",
-    "url": "/Web3A-David-Yudha-W/static/js/main.e7fed84f.chunk.js"
+    "revision": "eb07144f20537604b794",
+    "url": "/Web3A-David-Yudha-W/static/js/main.d19728b2.chunk.js"
   },
   {
     "revision": "9091ae5922d110d79c97",
