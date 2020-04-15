@@ -33,6 +33,12 @@ class Navbar extends Component {
         <Menu.Item>
           <Link to="/portofolio">Shop</Link>
         </Menu.Item>
+        <Menu.Item>
+          <Link to="/blog">Blog</Link>
+        </Menu.Item>
+        <Menu.Item>
+          <Link to="/blog/articleID">Blog Detail</Link>
+        </Menu.Item>
       </Menu>
     </nav>
     );
